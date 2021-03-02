@@ -1,6 +1,11 @@
 html {
     scroll-behavior: smooth;
 }
+
+img {
+    width: 200px;
+    height: 150px;
+}
 body {
     margin : 0;
     padding-top: 800px;
