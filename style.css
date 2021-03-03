@@ -2,10 +2,7 @@ html {
     scroll-behavior: smooth;
 }
 
-img {
-    width: 200px;
-    height: 150px;
-}
+
 body {
     margin : 0;
     padding-top: 800px;
@@ -114,4 +111,11 @@ position: absolute;
 #img {
     height: 150px;
     width: 150px;
+}
+img {
+  transition: transform .2s;
+}
+
+img:hover {
+  transform: scale(0.9);
 }
